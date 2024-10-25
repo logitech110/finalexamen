@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Biblioteca Municipal de Lima</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #000000; 
+        }
+
+        .login-container {
+            background-color: #ffd700; 
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            text-align: center;
+        }
+
+        h1 {
+            margin-bottom: 20px;
+            font-size: 24px;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box; 
+        }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            margin-top: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .btn-primary {
+            background-color: #007bff;
+            color: white;
+        }
+
+        .btn-secondary {
+            background-color: #6c757d;
+            color: white;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div class="login-container">
+        <h1>Bienvenido Usuario ;)</h1>
+
+        <form th:action="@{/login}" th:object="${userLogin}" method="post">
+            <p th:if="${errors}" th:text="${errors}"></p>
+            <div class="form-group">
+                <label for="email">Correo</label>
+                <input th:field="*{email}" type="email" name="usuario" placeholder="Ingrese su email" class="form-control">
+            </div>
+
+            <div class="form-group">
+                <label for="password">Contraseña</label>
+                <input th:field="*{password}" type="password" name="clave" placeholder="Ingrese su clave" class="form-control">
+            </div>
+
+            <button class="btn btn-primary" type="submit">Ingresar</button>
+           <button class="btn btn-secondary" type="button" onclick="window.location.href='/registro';">Registrar</button>        
+		    </form>
+    </div>
+
+</body>
+
+</html>

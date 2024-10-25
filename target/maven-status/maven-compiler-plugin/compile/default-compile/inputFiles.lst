@@ -1,0 +1,12 @@
+D:\LP2\Spring Tools Suite\lp2_sesion6-thymeleaf-data\lp2_sesion6-thymeleaf-data\src\main\java\pe\edu\cibertec\thymeleaf\controller\ProyectoController.java
+D:\LP2\Spring Tools Suite\lp2_sesion6-thymeleaf-data\lp2_sesion6-thymeleaf-data\src\main\java\pe\edu\cibertec\web\bd\MySQLDataSource.java
+D:\LP2\Spring Tools Suite\lp2_sesion6-thymeleaf-data\lp2_sesion6-thymeleaf-data\src\main\java\pe\edu\cibertec\web\Lp2Sesion6ThymeleafDataApplication.java
+D:\LP2\Spring Tools Suite\lp2_sesion6-thymeleaf-data\lp2_sesion6-thymeleaf-data\src\main\java\pe\edu\cibertec\web\model\Person.java
+D:\LP2\Spring Tools Suite\lp2_sesion6-thymeleaf-data\lp2_sesion6-thymeleaf-data\src\main\java\pe\edu\cibertec\web\model\Role.java
+D:\LP2\Spring Tools Suite\lp2_sesion6-thymeleaf-data\lp2_sesion6-thymeleaf-data\src\main\java\pe\edu\cibertec\web\model\User.java
+D:\LP2\Spring Tools Suite\lp2_sesion6-thymeleaf-data\lp2_sesion6-thymeleaf-data\src\main\java\pe\edu\cibertec\web\repository\IPersonRepository.java
+D:\LP2\Spring Tools Suite\lp2_sesion6-thymeleaf-data\lp2_sesion6-thymeleaf-data\src\main\java\pe\edu\cibertec\web\repository\IRoleRepository.java
+D:\LP2\Spring Tools Suite\lp2_sesion6-thymeleaf-data\lp2_sesion6-thymeleaf-data\src\main\java\pe\edu\cibertec\web\repository\IUserRepository.java
+D:\LP2\Spring Tools Suite\lp2_sesion6-thymeleaf-data\lp2_sesion6-thymeleaf-data\src\main\java\pe\edu\cibertec\web\service\PersonaServiceImpl.java
+D:\LP2\Spring Tools Suite\lp2_sesion6-thymeleaf-data\lp2_sesion6-thymeleaf-data\src\main\java\pe\edu\cibertec\web\service\PersonService.java
+D:\LP2\Spring Tools Suite\lp2_sesion6-thymeleaf-data\lp2_sesion6-thymeleaf-data\src\main\java\pe\edu\cibertec\web\service\UserService.java
